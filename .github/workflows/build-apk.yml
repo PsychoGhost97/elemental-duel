@@ -40,4 +40,4 @@ jobs:
           name: Elemental-Duel-APK
           path: android-app/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
-          
+                    unzip -o Elemental-Duel-Icon-Resources.zip -d .
