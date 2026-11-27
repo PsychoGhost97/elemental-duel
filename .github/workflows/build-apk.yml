@@ -18,8 +18,7 @@ jobs:
       - name: Extract Android project
         run: unzip -o Elemental-Duel-Android-Project.zip -d .
 
-      - name: Extract official game icon
-        run: unzip -o Elemental-Duel-Icon-Resources.zip -d .
+    
 
       - name: Set up Java
         uses: actions/setup-java@v4
